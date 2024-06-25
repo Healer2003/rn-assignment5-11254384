@@ -1,4 +1,4 @@
-import {Ionicons,AntDesign} from '@expo/vector-icons'
+import {Ionicons,AntDesign,FontAwesome6} from '@expo/vector-icons'
 export const items = [
     {
         id:"1",
@@ -13,7 +13,7 @@ export const items = [
     {
         id:"3",
         name:"Loan",
-        icon:<AntDesign name="dollar" size={20} color={"black"}/>
+        icon:<FontAwesome6 name="dollar-sign" size={20} color={"black"}/>
     },
     {
         id:"4",

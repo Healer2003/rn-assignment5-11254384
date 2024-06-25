@@ -4,7 +4,7 @@ export default function IconCard({icon,name}){
     return(
         <TouchableOpacity style={styles.main}>
             <View style={styles.sub}>
-                <Ionicons name={icon} size={20} color={"black"}/>
+                {icon}
             </View>
             <Text style={styles.text}>{name}</Text>
         </TouchableOpacity>
@@ -17,12 +17,15 @@ const styles = StyleSheet.create({
         alignItems:"center"
     },
     sub:{
-       paddingHorizontal:10,
-       paddingVertical:10,
-       backgroundColor:'#DCDCDC',
+      width:60,
+      height:60,
+      backgroundColor:'#DCDCDC',
+      borderRadius:50,
+      justifyContent:"center",
+      alignItems:"center",
     },
     text:{
-        fontSize:18,
+        fontSize:16,
         fontWeight:"medium",
     }
 })
