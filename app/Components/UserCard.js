@@ -1,5 +1,5 @@
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native"
-
+import {Ionicons,MaterialIcons,EvilIcons,AntDesign} from '@expo/vector-icons'
 export default function UserCard(){
     return(
         <View style={styles.main}>
@@ -13,8 +13,7 @@ export default function UserCard(){
                 </Text>
             </View>
             <TouchableOpacity style={styles.search}>
-                <Image style={{width:23,height:23}}
-                source={require('../assets/search.png')}/>
+                <AntDesign name="search1" color={"black"} size={20}/>
             </TouchableOpacity>
         </View>
     )
