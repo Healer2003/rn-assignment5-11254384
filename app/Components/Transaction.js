@@ -35,6 +35,6 @@ const styles = StyleSheet.create({
     },
     price:{
         fontSize:18,
-        font
+        fontWeight:500
     }
 })
