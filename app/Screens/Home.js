@@ -2,10 +2,13 @@ import { Image, StyleSheet,View,Text } from "react-native"
 import UserCard from "../Components/UserCard"
 import { items, transactions } from "../Components/Data"
 import IconCard from "../Components/IconCard"
+import Transaction from "../Components/Transaction"
 
 
 export default function Home(){
-    
+    const renderitem = ({item}) =>{
+        <Transaction name={item.name} price={item.price} icon={item.icon} genre={item.genre}/>
+    }
     return(
         <View >
             <UserCard/>
