@@ -1,10 +1,11 @@
 import { Image, StyleSheet,View,Text } from "react-native"
 import UserCard from "../Components/UserCard"
-import { items } from "../Components/Data"
+import { items, transactions } from "../Components/Data"
 import IconCard from "../Components/IconCard"
 
 
 export default function Home(){
+    
     return(
         <View >
             <UserCard/>
