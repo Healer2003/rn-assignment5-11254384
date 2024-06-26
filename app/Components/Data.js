@@ -1,4 +1,4 @@
-import {Ionicons,AntDesign,FontAwesome6} from '@expo/vector-icons'
+import {Ionicons,AntDesign,FontAwesome6,Entypo} from '@expo/vector-icons'
 export const items = [
     {
         id:"1",
@@ -19,5 +19,15 @@ export const items = [
         id:"4",
         name:"Topup",
         icon:<Ionicons name="cloud-upload-outline" size={25} color={"black"}/>
+    }
+]
+
+export const transactions =[
+    {
+        id:"1",
+        icon:<Entypo name='spotify' size={20} color={"green"}/>,
+        name:"Spotify",
+        genre:"Entertainment",
+        price:"-$5,99"
     }
 ]
