@@ -37,7 +37,7 @@ export default function Home(){
                 <Text style={{fontSize:20}}>Transaction</Text>
                 <Text style={{color:"blue"}}>Sell All</Text>
             </View>
-            <View style={{flex:1,flexDirection:"column",borderWidth:1}}>
+            <View style={{flex:1,flexDirection:"column",}}>
                 <FlatList 
                 data={transactions} 
                 renderItem={renderitems} 

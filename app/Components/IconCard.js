@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     sub:{
       width:60,
       height:60,
-      backgroundColor:'#DCDCDC',
+      backgroundColor:'whitesmoke',
       borderRadius:50,
       justifyContent:"center",
       alignItems:"center",

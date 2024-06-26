@@ -36,8 +36,7 @@ const styles = StyleSheet.create({
         justifyContent:"center",
         alignItems:"center",
         borderRadius:50,
-        backgroundColor:"#DCDCDC",
-        opacity:0.6
+        backgroundColor:"whitesmoke",
     },
       text:{
         fontSize:16,

@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
         height:50,
         justifyContent:"center",
         alignItems:"center",
-        backgroundColor:"#DCDCDC",
+        backgroundColor:"whitesmoke",
         borderRadius:50,
     },
     textView:{
