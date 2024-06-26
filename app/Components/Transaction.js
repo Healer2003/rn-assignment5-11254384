@@ -20,8 +20,8 @@ const styles = StyleSheet.create({
         paddingVertical:10
     },
     iconholder:{
-        width:50,
-        height:50,
+        width:45,
+        height:45,
         justifyContent:"center",
         alignItems:"center",
         backgroundColor:"whitesmoke",
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
         fontWeight:"500",
     },
     bottomText:{
-        fontSize:16,
+        fontSize:14,
         color:"gray"
     },
     price:{

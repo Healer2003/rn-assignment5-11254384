@@ -34,9 +34,10 @@ export default function Home(){
             </View>
 
             <View style={{flexDirection:"row",justifyContent:"space-between",alignItems:"center",marginVertical:20}}>
-                <Text style={{fontSize:20}}>Transaction</Text>
-                <Text style={{color:"blue"}}>Sell All</Text>
+                <Text style={{fontSize:20,fontWeight:"500"}}>Transaction</Text>
+                <Text style={{color:"blue",fontSize:15}}>Sell All</Text>
             </View>
+
             <View style={{flex:1,flexDirection:"column",}}>
                 <FlatList 
                 data={transactions} 

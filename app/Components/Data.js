@@ -25,28 +25,28 @@ export const items = [
 export const transactions =[
     {
         id:"1",
-        icon:<FontAwesome5 name='apple' size={20} color={"green"}/>,
-        name:"Apple",
+        icon:<FontAwesome5 name='apple' size={20} color={"black"}/>,
+        name:"Apple Store",
         genre:"Entertainment",
-        price:"-$5,99"
+        price:"- $5,99"
     },
     {
         id:"2",
-        icon:<Entypo name='spotify' size={20} color={"green"}/>,
+        icon:<Entypo name='spotify' size={20} color={"#1ED760"}/>,
         name:"Spotify",
         genre:"Music",
-        price:"-$12,99"
+        price:"- $12,99"
     },
     {
         id:"3",
-        icon:<MCI name='tray-arrow-down' size={20} color={"green"}/>,
+        icon:<MCI name='tray-arrow-down' size={20} color={"black"}/>,
         name:"Money Transfer",
         genre:"Transaction",
         price:"$300"
     },
     {
         id:"4",
-        icon:<MCI name='cart-outline' size={20} color={"green"}/>,
+        icon:<MCI name='cart-outline' size={20} color={"red"}/>,
         name:"Grocery",
         genre:"Shop",
         price:"-$88"

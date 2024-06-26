@@ -13,7 +13,7 @@ export default function UserCard(){
                 </Text>
             </View>
             <TouchableOpacity style={styles.search}>
-                <AntDesign name="search1" color={"black"} size={20}/>
+                <AntDesign name="search1" color={"black"} size={18}/>
             </TouchableOpacity>
         </View>
     )
@@ -31,8 +31,8 @@ const styles = StyleSheet.create({
         paddingLeft:15,
       },
       search:{
-        width:40,
-        height:40,
+        width:45,
+        height:45,
         justifyContent:"center",
         alignItems:"center",
         borderRadius:50,
@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
     },
       text:{
         fontSize:16,
+        color:"gray"
       },
       text1:{
         fontSize:20,
