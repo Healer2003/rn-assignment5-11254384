@@ -6,13 +6,19 @@ import Transaction from "../Components/Transaction"
 
 
 export default function Home(){
-    const renderitem = ({item}) =>{
+    const renderitems = ({item}) =>{
         return(
-        <Transaction name={item.name} price={item.price} icon={item.icon} genre={item.genre}/>
+            <Transaction 
+        name={item.name} 
+        price={item.price} 
+        icon={item.icon}
+        genre={item.genre}
+         />
         )
+        
     }
     return(
-        <View >
+        <View style={{flex:1}}>
             <UserCard/>
             <View style={{marginVertical:40,}}>
             <Image source={require('../assets/Card.png')} style={styles.image}/>
@@ -31,9 +37,10 @@ export default function Home(){
                 <Text style={{fontSize:20}}>Transaction</Text>
                 <Text style={{color:"blue"}}>Sell All</Text>
             </View>
-            <View style={{flex:1}}>
-                <FlatList data={transactions} 
-                renderItem={renderitem} 
+            <View style={{flex:1,flexDirection:"column",borderWidth:1}}>
+                <FlatList 
+                data={transactions} 
+                renderItem={renderitems} 
                 key={(item)=>item.id}
                 showsVerticalScrollIndicator={false}
                 />

@@ -1,7 +1,7 @@
 import { View,Text, StyleSheet } from "react-native"
 export default function Transaction({icon,name,genre,price}){
     return(
-        <View>
+        <View style={styles.main}>
             <View style={styles.iconholder}>{icon}</View>
             <View style={styles.textView}>
                 <Text style={styles.topText}>{name}</Text>
@@ -14,27 +14,34 @@ export default function Transaction({icon,name,genre,price}){
 
 const styles = StyleSheet.create({
     main:{
-        flexDirection:"row"
+        flexDirection:"row",
+        alignItems:"center",
+        marginBottom:10,
+        paddingVertical:10
     },
     iconholder:{
         width:50,
         height:50,
         justifyContent:"center",
-        alignItems:"center"
+        alignItems:"center",
+        backgroundColor:"#DCDCDC",
+        borderRadius:50,
     },
     textView:{
         justifyContent:"space-between",
-        alignItems:"center"
+        flex:1,
+        marginLeft:20
     },
     topText:{
         fontSize:18,
-        fontWeight:500,
+        fontWeight:"500",
     },
     bottomText:{
         fontSize:16,
+        color:"gray"
     },
     price:{
         fontSize:18,
-        fontWeight:500
+        fontWeight:"500"
     }
 })
