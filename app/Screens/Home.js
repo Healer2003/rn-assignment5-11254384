@@ -18,7 +18,7 @@ export default function Home(){
         
     }
     return(
-        <View style={{flex:1}}>
+        <View style={styles.container}>
             <UserCard/>
             <View style={{marginVertical:40,}}>
             <Image source={require('../assets/Card.png')} style={styles.image}/>
@@ -51,6 +51,12 @@ export default function Home(){
 }
 
 const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        paddingTop:30,
+        paddingHorizontal:20,
+        backgroundColor: '#fff',
+      },
     image:{
         objectFit:"cover",
         alignSelf:"center",
